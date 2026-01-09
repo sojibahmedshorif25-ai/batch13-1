@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;        
+    background-color: #ffffff;
+    height: 92px;               
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    height: 40px; 
+    width: auto;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-logo {
+    color: #469165;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.logo-text p {
+    font-size: 10px;
+    color: #666;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 32px;                 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #469165;
+}
+
+.btn-primary {
+    background-color: #469165;     
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;    
+}
+
+.btn-primary:hover {
+    background-color: #357a5b;  
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 12px rgba(70, 145, 101, 0.3); 
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../assets/hero-bg.png"); 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+  
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  max-width: 750px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-content span {
+  color: #2ecc71;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn{
+  
+height: 35px;
+display: flex;
+justify-content: center;
+
+
+
+}
+
+   
