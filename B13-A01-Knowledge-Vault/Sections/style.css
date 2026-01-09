@@ -136,5 +136,48 @@ justify-content: center;
 
 
 }
+.pillar-card {
+   background-color: white;
+   border-radius: 13px;
+   padding: 13px;
+}
+.note-container{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.note-card{
+  display: flex;
+  gap: 10px;
 
-   
+}
+ .card {
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  border: 1px solid rgb(189, 186, 186);
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 8px;
+  background-color: #F95555;
+  border-radius: 100%;
+}
+.card h5{
+  color:#001931 ;
+  font-size: 24px;
+  font-weight:600;
+  margin: 6px 0;
+}
+
+.card p{
+  color: #627382;
+  font-size: 16px;
+  margin: 4px 0 0; 
+}
+.note-heading{
+  margin-bottom: 10px;
+}
