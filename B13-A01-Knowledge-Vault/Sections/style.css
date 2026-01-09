@@ -288,3 +288,50 @@ justify-content: center;
   font-size: 14px;
   color: #777;
 }
+.footer {
+  background: #0b1c2d;
+  padding: 30px 0;
+  color: #bfc7d1;
+  font-size: 14px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+}
+
+
+.footer-logo img {
+  height: 35px;
+}
+
+
+.footer-copy {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-social span {
+  margin-right: 5px;
+}
+
+.footer-social a {
+  color: #bfc7d1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-social a:hover {
+  color: #ffffff;
+}
